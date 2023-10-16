@@ -28,7 +28,7 @@ class UserResource extends Resource
                 TextInput::make('name')
                     ->autofocus()
                     ->required()
-                    ->placeholder(__('Name')),
+                    ->placeholder(__('Full Name')),
                 TextInput::make('email')
                     ->email()
                     ->required()
